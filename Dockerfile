@@ -8,5 +8,5 @@ RUN apt install -y \
 curl
 
 # Reset back to runner context
-WORKDIR /home/runner
 USER runner
+WORKDIR /home/runner
