@@ -5,7 +5,7 @@ USER root
 
 RUN apt update
 
-RUN apt install --reinstall -y imagemagick
+#RUN apt install -y imagemagick
 
 USER runner
 WORKDIR /home/runner
