@@ -5,7 +5,7 @@ USER root
 
 RUN apt update
 
-RUN apt install -y imagemagick curl wget git
+RUN apt install -y imagemagick
 
 USER runner
 WORKDIR /home/runner
