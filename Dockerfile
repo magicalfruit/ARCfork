@@ -4,4 +4,3 @@ FROM ghcr.io/actions/actions-runner:latest
 USER root
 
 USER runner
-WORKDIR /home/runner
